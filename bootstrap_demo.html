@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Job Portal Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/adc549ef6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="Logo.svg" width="100" height="70" alt="your logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-md-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Employees</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link btn btn-outline-danger mb-md-2 py-2 px-4 mx-2" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-success py-2 px-4 mx-2" href="#">Sign up</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard <i class="fas fa-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="jumbotron text-center">
+        <h1 class="display-4">Find Your Dream Job</h1>
+        <p class="lead">Browse thousands of job listings from top employers.</p>
+        <form class="form-inline justify-content-center">
+            <div class="form-group mb-2">
+                <label for="inputKeyword" class="sr-only">Keyword</label>
+                <input type="text" class="form-control" id="inputKeyword" placeholder="Keyword">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputLocation" class="sr-only">Location</label>
+                <input type="text" class="form-control" id="inputLocation" placeholder="Location">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Search</button>
+        </form>
+    </section>
+   
+    <section class="hero bg-info py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="text-white mb-4">Don't find your job. Search from job categories</h1>
+                    <p class="text-white mb-4">Explore job categories and apply for your next career move.</p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="job-categories d-flex flex-wrap justify-content-center justify-content-lg-end">
+                        <a href="#" class="btn btn-outline-light m-1">Web Developer</a>
+                        <a href="#" class="btn btn-outline-light m-1">App Developer</a>
+                        <a href="#" class="btn btn-outline-light m-1">UI/UX Designer</a>
+                        <a href="#" class="btn btn-outline-light m-1">Game Developer</a>
+                        <a href="#" class="btn btn-outline-light m-1">Software Developer</a>
+                        <a href="#" class="btn btn-outline-light m-1">Cybersecurity</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Job Listings -->
+    <section class="container">
+        <h2 class="mb-4 text-md-center mt-2">Featured Jobs</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="https://via.placeholder.com/500x250" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Front-End Developer</h5>
+                    <p class="card-text">Lorem ipsum dolorsit amet, consectetur adipiscing elit. Fusce vestibulum justo
+                        eget enim euismod, vitae euismod elit sodales. Nunc vitae
+                        risus et eros semper dignissim. Aliquam erat volutpat.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Company Name</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/500x250" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Back-End Developer</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum justo
+                        eget enim
+                        euismod, vitae euismod elit sodales. Nunc vitae risus et eros semper dignissim. Aliquam erat
+                        volutpat.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Company Name</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/500x250" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Full-Stack Developer</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum justo
+                        eget enim
+                        euismod, vitae euismod elit sodales. Nunc vitae risus et eros semper dignissim. Aliquam erat
+                        volutpat.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Company Name</small>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Resume Upload -->
+    <div class="container-fluid bg-light  p-3 mt-2 ">
+        <section class="upload-resume">
+            <div class="container">
+                <h2>Ready to Land on Your Dream Job. Upload Your Resume</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="resume">Choose file</label>
+                        <input type="file" class="form-control-file" id="resume">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </form>
+            </div>
+        </section>
+    </div>
+        
+    <!-- NewsLetter Subscription -->
+    <section class="newsletter">
+        <div class="newsletter__container">
+            <div class="container__head">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Stay up-to-date with our latest job openings and news.</p>
+            </div>
+            <div class="container__form">
+                <form class="form">
+                    
+                        <input type="email"  placeholder="Enter your email address">
+                    <button type="submit" class="subscribe">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>Copyright &copy; 2023 jobseekers.com | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

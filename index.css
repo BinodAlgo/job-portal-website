@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Lato&family=Source+Sans+Pro:wght@300&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:16px;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+}
+
+.nav-link .fa-user {
+  margin-right: 5px;
+  font-size:20px;
+  /* border:1px solid rgb(0, 0, 0);  */
+  border-radius:50%;
+}
+
+
+.newsletter {
+  background: linear-gradient(-45deg, #24021b,#731673);
+  padding: 50px 0;
+}
+.newsletter__container{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    flex-direction: row;
+}
+.newsletter__container .container__head{
+    color:white;
+}
+
+.newsletter__container .container__form .form{
+ display: flex;
+ /* flex-direction: row; */
+ justify-content: center;
+ align-items: center;
+}
+.form input{
+    width:30vw;
+    padding:.9rem;
+    background:rgb(1, 1, 47);
+    border:none;
+    font-size:17px;
+    outline:none;
+    color:white;
+    border-radius: 10px 0 0 10px ;
+}
+.form .subscribe{
+    width: 30%;
+    padding:.9rem;
+      font-size: 17px;
+    border:none;
+    outline:none;
+    background:#cd058e;
+    color:white;
+    border-radius: 0 10px 10px 0 ;
+}
+.newsletter h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.newsletter p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* .newsletter .form-group {
+  margin-right: 20px;
+} */
+
+@media screen and (max-width:1010px){
+   .newsletter__container{
+ flex-direction: column;
+ text-align:center;
+} 
+}
+
+
+
+
