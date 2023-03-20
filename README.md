@@ -26,7 +26,8 @@ Provide instructions for how to install and run your job portal website. This ma
 
 ---
 
-Database Configuration
+# MySQL Database
+
 -- Create job_portal database
 CREATE DATABASE job_portal;
 
@@ -68,7 +69,25 @@ FOREIGN KEY (user_id) REFERENCES users(id),
 FOREIGN KEY (job_id) REFERENCES job_postings(id)
 );
 
+---
+
 This will create a new database called "job_portal" and three tables: "users", "job_postings", and "job_applications". You can modify these queries as needed to fit the specific requirements of your job portal website.
+
+# Server Configuration
+
+---
+
+Apache Server
+
+---
+
+# Programming Language
+
+---
+
+PHP( Hypertext Pre-processor) is a backend scripting language that works very well with HTML, CSS, Js on the frontend. Together with MySQL as database, it powers the 90% of websites hosted today in the internet.
+
+---
 
 ---
 
